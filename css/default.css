@@ -1,0 +1,847 @@
+/* All CSS styles go here */
+@font-face {
+    font-family: top;
+    src:url(../fonts/lsansuni.ttf);
+}
+
+@font-face {
+    font-family: middle;
+    src:url(../fonts/caslon.otf);
+}
+
+@font-face {
+    font-family: drop;
+    src:url(../fonts/seravek.ttc);
+}
+
+@font-face {
+    font-family: dropbold;
+    src:url(../fonts/tahomabold.ttf);
+}
+
+@font-face {
+    font-family: cambria;
+    src:url(../fonts/cambria.ttf);
+}
+
+@font-face {
+    font-family: cambriabold;
+    src:url(../fonts/cambriabold.ttf);
+}
+
+html,body {
+    width: 100%;
+    height: 100%; 
+}
+
+.first {
+    width: 1100px;
+    height: 100%;
+    position: absolute;  
+    left: 50%;
+    margin-left: -550px;
+}
+    
+#first1 {
+    position: absolute;
+    top: 36px;
+    left: 53.236px;
+    
+}
+
+#first2 {
+    font-family: top;
+    font-size: 20.12px;
+    color: #1EA8AA;
+    position: absolute;
+    top: 69px;
+    right: 189px;
+}
+
+#first3 {
+    position: absolute;
+    top: 69px;
+    right: 108.5px;
+}
+
+#feature {
+    width: 100%;
+    position: absolute;
+    top: 147.48px;
+    height: 331.25px;
+    background:url('../images/sugar.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
+    
+}
+
+#featuretext {
+    font-family: middle;
+    position: absolute;
+    font-size: 41.68px;
+    color: white;
+    top: 393.333px;
+    right: 89px;
+    z-index: 1;
+    
+}
+
+#featuresub {
+    font-family: top;
+    position: absolute;
+   font-size: 12px;
+    color: white;
+    top: 444px;
+    right: 89px;
+    z-index: 1;
+}
+
+#short1 {
+    
+    position: absolute;
+    top: 535.724px;
+    left: 91.696px;
+}
+
+#local {
+    width: 200px;
+    height: 15px;
+    font-family: top;
+    font-size: 12px;
+    color: #1EA8AA;
+    position: absolute;
+    top: 738.326px;
+    left: 91.696px;
+}
+
+#localinfo {
+    width: 275px;
+    height: 30px;
+    font-family: middle;
+    font-size: 14.26px;
+    color: black;
+    position: absolute;
+    top: 758.5px;
+    left: 91.696px;
+}
+
+#short2 {
+    
+    position: absolute;
+    top: 535.724px;
+    left: 410.191px; 
+}
+
+#sport {
+    width: 275px;
+    height: 15px;
+    font-family: top;
+    font-size: 12px;
+    color: #1EA8AA;
+    position: absolute;
+    top: 738.326px;
+    left: 410.191px; 
+}
+
+
+#sportinfo {
+    width: 275px;
+    height: 37px;
+    font-family: middle;
+    font-size: 14.26px;
+    color: black;
+    position: absolute;
+    top: 758.5px;
+    left: 410.191px; 
+    line-height: 17px;
+}
+
+#short3 {
+    
+    position: absolute;
+    top: 535.724px;
+    left: 728.685px;
+}
+
+#business {
+    width: 275px;
+    height: 15px;
+    font-family: top;
+    font-size: 12px;
+    color: #1EA8AA;
+    position: absolute;
+    top: 738.326px;
+    left: 728.685px;
+}
+
+
+#businessinfo {
+    width: 275px;
+    height: 30px;
+    font-family: middle;
+    font-size: 14.26px;
+    color: black;
+    position: absolute;
+    top: 758.5px;
+    left: 728.685px;
+    line-height: 20px;
+}
+
+#short4 {
+    position: absolute;
+    top: 833.618px;
+    left: 91.696px;
+}
+
+#politics {
+    width: 275px;
+    height: 15px;
+    font-family: top;
+    font-size: 12px;
+    color: #1EA8AA;
+    position: absolute;
+    top: 1034.891px;
+    left: 91.696px;
+}
+
+#politicsinfo {
+    width: 275px;
+    height: 80px;
+    font-family: middle;
+    font-size: 14.26px;
+    color: black;
+    position: absolute;
+    top: 1055.047px;
+    left: 91.696px;
+    line-height: 17px;
+}
+
+#short5 {
+    position: absolute;
+    top: 833.618px;
+    left: 410.191px; 
+}
+
+#world {
+    width: 275px;
+    height: 195px;
+    font-family: top;
+    font-size: 12px;
+    color: #1EA8AA;
+    position: absolute;
+    top: 1034.891px;
+    left: 410.191px; 
+}
+
+#worldinfo {
+    width: 275px;
+    height: 80px;
+    font-family: middle;
+    font-size: 14.26px;
+    color: black;
+    position: absolute;
+    top: 1055.047px;
+    left: 410.191px; 
+    line-height: 17px;
+}
+
+#short6 {
+    position: absolute;
+    top: 833.618px;
+    left: 728.685px;
+}
+
+#health {
+    width: 275px;
+    height: 80px;
+    font-family: top;
+    font-size: 12px;
+    color: #1EA8AA;
+    position: absolute;
+    top: 1034.891px;
+    left: 728.685px;
+}
+
+#healthinfo {
+   width: 275px;
+    height: 80px;
+    font-family: middle;
+    font-size: 14.26px;
+    color: black;
+    position: absolute;
+    top: 1055.047px;
+    left: 728.685px;
+    line-height: 17px;
+}
+
+#ad1 {
+    position:absolute;
+    top: 1136.372px;
+    
+}
+
+
+#ad2 {
+    position:absolute;
+    top: 1136.372px;
+    left: 258.148px;
+}
+
+#ad3 {
+    position:absolute;
+    top: 1136.372px;
+    left: 572.606px;
+}
+
+#ad4 {
+    position:absolute;
+    top: 1136.372px;
+    left: 885.254px;
+}
+
+#long1 {
+    position:absolute;
+    top: 1282.18px;
+    left: 88.056px;
+    z-index: 0;
+    
+}
+
+#featuretext1 {
+    font-family: middle;
+    position: absolute;
+    font-size: 27.42px;
+    color: white;
+    top: 1524.972px;
+    left: 123.776px;
+    z-index: 1;
+}
+
+#featuresub1 {
+    font-family: top;
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    top: 1555px;
+    left: 123.776px;
+    z-index: 1;
+}
+
+#long2 {
+    position:absolute;
+    top: 1282.18px;
+    left: 571.943px;
+    
+}
+
+#featuretext2 {
+    font-family: middle;
+    position: absolute;
+    font-size: 27.42px;
+    color: white;
+    top: 1524.972px;
+    left: 734.301px;
+    z-index: 1;
+}
+
+#featuresub2 {
+    font-family: top;
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    top: 1555px;
+    right: 122px;
+    z-index: 1;
+}
+
+#more {
+    position: absolute;
+    top:1634.876px;
+    left: 494.552px;
+}
+
+.class {
+    width: 100%;
+}
+
+#drop1 {
+    position: absolute;
+    top: 15px;
+    left: 47px;
+    font-family: drop;
+    font-size: 16.97px;
+    z-index: 2;
+}
+
+#drop2 {
+    position: absolute;
+    top: 15px;
+    left: 215px;
+    font-family: drop;
+    font-size: 16.97px;
+    z-index: 2;
+}
+
+#drop3 {
+    position: absolute;
+    top: 15px;
+    left: 358px;
+    font-family: drop;
+    font-size: 16.97px;
+    z-index: 2;
+}
+
+.item {
+    position: absolute;
+    line-height: 30px;
+    list-style: none;
+    top: 25px;
+}
+
+.six {
+    background: rgba(255,255,255,0.5);
+    width: 918px;
+    height: 305px;
+    position: absolute;
+    top: 115px;
+    left: 50%;
+    margin-left: -459px;
+    display: none;
+}
+
+.six2 {
+    background: white;
+    width: 918px;
+    height: 305px;
+    position: absolute;
+    z-index: 2;
+    top: 115px;
+    left: 50%;
+    margin-left: -459px;
+    display: none;
+}
+
+.bold {
+    font-family: dropbold;
+    font-weight: 500;
+    color: black;
+}
+
+#drop {
+    position: absolute;
+    top: 15px;
+    left: 358px;
+    font-family: drop;
+    font-size: 16.97px;
+    z-index: 2;
+}
+
+#drop4 {
+    position: absolute;
+    top: 15px;
+    left: 540px;
+    font-family: drop;
+    font-size: 16.97px;
+    z-index: 2;
+}
+
+#social {
+    width: 241px;
+    position: absolute;
+    top: 120px;
+    right: -95px;
+    z-index: 1;
+}
+
+#close {
+    position: absolute;
+    top: -10px;
+    left: 764px;
+    color: #D5492B;
+    font-family: top;
+    font-size: 12px;
+    
+}
+
+/* Short 1*/
+
+#shortheader{
+    position: absolute;
+    top: 115px;
+    left: 137.677px;
+}
+.healthstory1 {
+    font-family: top;
+    font-size: 18px;
+    color: #D5492B;
+}
+
+.healthstory2 {
+    font-family: cambriabold;
+    font-weight: 700;
+    font-size: 28px;
+    color: black;
+    position:absolute;
+    width: 772.855px;
+    top: 35.5px;
+}
+
+.healthstory3 {
+    font-family: cambria;
+    font-size: 11px;
+    color: #58595B;
+    position:absolute;
+    width: 772.855px;
+    top: 85px;
+    line-height: 15px;
+}
+
+#shortbody {
+    position: absolute;
+    top: 267px;
+    width: 469.407px;
+    height: 2500px;
+    left: 137.677px;
+    
+}
+
+.s1 {
+    font-size: 18px;
+    font-family: cambria;
+    line-height: 23px;
+    padding-bottom: 15.4px;
+}
+
+#patient {
+    position: absolute;
+    top: 267px;
+    right: 95px;
+}
+
+.patientinfo {
+    position: absolute;
+    width:365px;
+    height: 63.405px;
+    top: 535px;
+    right: 92px;
+    font-family: cambria;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+#shortad1 {
+    position: absolute;
+    top: 630px;
+    left: 670px;
+}
+
+#shortad2 {
+    position: absolute;
+    top: 630px;
+    left: 850px;
+}
+
+#tend {
+    position: absolute;
+    top: 740px;
+    right: 95px;
+}
+
+.patientinfo2 {
+    position: absolute;
+    width:365px;
+    height: 63.405px;
+    top: 1008px;
+    right: 92px;
+    font-family: cambria;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+/* Long story */
+.firstsugar {
+    width: 100%;
+    height: 100%;
+    position: absolute;  
+    background: url(../images/sugarlong.png);
+    background-size: cover;
+}
+
+#longsugar {
+    position: absolute;
+   
+}
+
+#first21 {
+    font-family: top;
+    font-size: 20.12px;
+    color: white;
+    position: absolute;
+    top: 69px;
+    right: 189px;
+}
+
+#close3 {
+    position: absolute;
+    top: -10px;
+    left: 764px;
+    color: white;
+    font-family: top;
+    font-size: 12px;
+    
+}
+
+.longheader {
+    width: 1100px;
+    position: absolute;  
+    left: 50%;
+    text-align: center;
+    margin-left: -550px;
+    font-family: middle;
+    font-size: 59.97px;
+    color: white;
+    z-index: 1;
+    top: 550px;
+}
+
+#longtext {
+    width: 1100px;
+    height: 100%;
+    position: absolute; 
+    top: 750px;
+    position: absolute;
+    left: 50%;
+    margin-left: -550px;
+}
+
+.longauthor1 {
+    width: 199.077px;
+    font-family: cambriabold;
+    font-size: 13.91px;
+    font-weight: 800; 
+}
+
+.longauthor2 {
+    width: 199.077px;
+    font-family: cambria;
+    font-size: 13.91px;
+    line-height: 19.76px;
+    padding-bottom: 15.4px;
+}
+
+.l1 {
+    font-family: cambria;
+    font-size: 20.13px;
+    line-height: 27.45px;
+    padding-bottom: 30px;
+}
+
+#layout1 {
+    width: 728.972px;
+    position: absolute;
+    left: 262.134px;
+    top: 0px;
+}
+
+#layout2a {
+    width: 279.765px;
+    position: absolute;
+    left: 134.539px;
+    top: 925px;
+}
+
+#layout2b {
+    width: 420.908px;
+    position: absolute;
+    left: 579.336px;
+    top: 845px;
+}
+
+.l2 {
+    font-family: cambriabold;
+    font-size: 45px;
+    line-height: 59px;
+    font-weight: 800;
+    
+}
+
+span {
+    color: #DB6B84;
+}
+
+#layout3 {
+    width: 728.972px;
+    position: absolute;
+    left: 262.134px;
+    top: 1360px;
+}
+
+#limg1 {
+    position: absolute;
+    top: 2095px;
+    left: -20px;
+}
+
+#layout4 {
+    width: 420.908px;
+    position: absolute;
+    left: 579.336px;
+    top: 2075px;
+}
+
+#layout5 {
+    width: 728.972px;
+    position: absolute;
+    left: 262.134px;
+    top: 2485px;
+}
+
+#layout6a {
+    width: 279.765px;
+    position: absolute;
+    left: 134.539px;
+    top: 3450px;
+}
+
+#layout6b {
+    width: 420.908px;
+    position: absolute;
+    left: 579.336px;
+    top: 3299px;
+}
+
+#layout7 {
+    width: 740px;
+    position: absolute;
+    left: 262.134px;
+    top: 4080px;
+}
+
+#sweetvideo {
+    width: 479.998px;
+    position: absolute;
+    top: 5350px;
+    left: -20px;
+}
+
+#layout8b {
+    width: 420.908px;
+    position: absolute;
+    left: 579.336px;
+    top: 5225px;
+}
+
+#layout9 {
+    width: 740px;
+    position: absolute;
+    left: 262.134px;
+    top: 5850px;
+}
+
+
+#layout10a {
+    width: 220px;
+    position: absolute;
+    left: 134.539px;
+    top: 6760px;
+}
+
+#layout10b {
+    width: 426px;
+    position: absolute;
+    left: 579.336px;
+    top: 6725px;
+}
+
+#layout11 {
+    width: 740px;
+    position: absolute;
+    left: 262.134px;
+    top: 7025px;
+}
+
+#layout12a {
+    width: 315px;
+    position: absolute;
+    left: 134.539px;
+    top: 8350px;
+}
+
+#layout12b {
+    width: 426px;
+    position: absolute;
+    left: 579.336px;
+    top: 8205px;
+}
+
+#layout13 {
+    width: 748px;
+    position: absolute;
+    left: 262.134px;
+    top: 8830px;
+}
+
+
+#limg2 {
+    position: absolute;
+    top: 10390px;
+    left: -20px;
+}
+
+
+#layout14b {
+    width: 426px;
+    position: absolute;
+    left: 579.336px;
+    top: 10305px;
+}
+
+#layout15 {
+    width: 748px;
+    position: absolute;
+    left: 262.134px;
+    top: 10845px;
+}
+
+#layout16a {
+    width: 250px;
+    position: absolute;
+    left: 134.539px;
+    top: 12090px;
+}
+
+#layout16b {
+    width: 426px;
+    position: absolute;
+    left: 579.336px;
+    top: 11890px;
+}
+
+#layout17 {
+    width: 760px;
+    position: absolute;
+    left: 262.134px;
+    top: 12540px;
+}
+
+#layout18 {
+    width: 760px;
+    position: absolute;
+    left: 262.134px;
+    top: 13450px;
+}
+
+.l3 {
+    width: 760px;
+    font-family: cambria;
+    font-size: 13.91px;
+    line-height: 19.76px;
+    padding-bottom: 50px;
+}
+
+.move {
+    position: fixed;
+    top: 300px;
+    right: 40px;
+}
